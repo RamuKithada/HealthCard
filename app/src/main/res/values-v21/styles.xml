@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:listDivider">@color/colorWhite</item>
+    </style>
+    <style name="AppTheme.NoActionBarWhite">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorWhite</item>
+        <item name="android:listDivider">@color/colorWhite</item>
+    </style>
+</resources>

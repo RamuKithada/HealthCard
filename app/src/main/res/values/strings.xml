@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MedSpace</string>
+    <string name="caption">Patient Appointment App</string>
+    <string name="sign_in">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="user_name">User name</string>
+    <string name="user_number">Mobile number</string>
+    <string name="password">Password </string>
+    <string name="email">Email</string>
+    <string name="conform_password">Conform password </string>
+    <string name="add_op">Add Appointment</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dont_text">Don\'t have an account?</string>
+    <string name="already_text">Already have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="submit">Submit</string>
+    <string name="continue_for_">Continue for Registration</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="signin">Sign in</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_sub_text">We just need your registerd Email to send you password reset instructuin</string>
+</resources>
