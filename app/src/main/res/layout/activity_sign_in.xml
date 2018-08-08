@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="@dimen/activity_vertical_margin"
     android:background="@color/colorWhite"
-    tools:context=".SignInActivity">
+    tools:context=".activity.SignInActivity">
 
 
 <RelativeLayout
@@ -47,8 +47,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
-                    android:layout_marginLeft="2dp"
-                    android:hint="@string/user_name"
+                    android:layout_marginLeft="5dp"
+                    android:hint="@string/email"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:singleLine="true" />
@@ -77,10 +77,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#fff"
-            android:layout_marginLeft="2dp"
+            android:layout_marginLeft="5dp"
             android:layout_gravity="center"
             android:hint="@string/password"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:maxLines="1"
             android:singleLine="true" />
 

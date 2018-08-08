@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "618395011823",
+    "firebase_url": "https://appintment-b626c.firebaseio.com",
+    "project_id": "appintment-b626c",
+    "storage_bucket": "appintment-b626c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618395011823:android:9ce2facc477749b5",
+        "android_client_info": {
+          "package_name": "com.pachatech.appointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618395011823-in0atv941kmgt0ocncq369jpmuh8gptt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQHMV9IAyJuS_KuLCIkkbGvMJwsexIeVI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

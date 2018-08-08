@@ -2,10 +2,11 @@
     <string name="app_name">MedSpace</string>
     <string name="caption">Patient Appointment App</string>
     <string name="sign_in">Sign in</string>
-
+    <string name="update">Update</string>
     <!-- Strings related to login -->
     <string name="user_name">User name</string>
     <string name="user_number">Mobile number</string>
+    <string name="old_password">Old Password</string>
     <string name="password">Password </string>
     <string name="email">Email</string>
     <string name="conform_password">Conform password </string>
@@ -35,4 +36,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="forgot_sub_text">We just need your registerd Email to send you password reset instructuin</string>
+    <string name="op_title">New Op Registration</string>
+    <string name="default_notification_channel_id">medspace channel</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="notifications_admin_channel_name">medspace</string>
+    <string name="welcome" >Welcome to </string>
+    <string name="medspace">Medspace</string>
+    <string name="card_reg">Card Registration</string>
 </resources>

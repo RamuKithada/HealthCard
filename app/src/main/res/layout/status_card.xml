@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/status"
+            >
+        <TextView
+            android:id="@+id/status_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="Hospital Name :"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/hospital_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/status_lable"
+            android:gravity="center_vertical|left"
+            android:text="Hospital Name1"
+            />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Pending"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+
+    </RelativeLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/line"
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+        <RelativeLayout
+            android:id="@+id/side_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <LinearLayout
+                android:id="@+id/coupn_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Coupon Code"
+                   android:textColor="@color/colorPrimaryDark"
+                   />
+                <TextView
+                    android:id="@+id/coupn_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                      android:text="No Code "
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/action_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+               <TextView
+                   android:id="@+id/accept"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:background="@drawable/accept_btn_bg"
+                   android:gravity="center"
+                   android:paddingBottom="5dp"
+                   android:paddingLeft="10dp"
+                   android:paddingRight="10dp"
+                   android:paddingTop="5dp"
+                   android:text="Accept"
+                   android:textColor="@android:color/white"
+                   android:textStyle="bold"
+                   />
+                <TextView
+                    android:id="@+id/reject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/reject_btn_bg"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Reject"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    />
+
+
+                </LinearLayout>
+
+        </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@+id/side_lay">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/time_slot"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="Slot Time:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/time_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:30 pm"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/splist"
+
+                />
+            <TextView
+                android:id="@+id/dept_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="Department Name"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left|top"
+                android:layout_margin="2dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:paddingLeft="2dp"
+                android:text="Specialist :"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/spl_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="specialist name"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left|top"
+                android:layout_margin="2dp"
+                android:src="@drawable/location1"
+                />
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text=""
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
